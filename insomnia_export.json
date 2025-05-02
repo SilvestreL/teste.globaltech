@@ -1,0 +1,61 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2025-05-01T00:00:00.000Z",
+  "__export_source": "insomnia.desktop.app:v2023.5.8",
+  "resources": [
+    {
+      "_id": "wrk_1",
+      "name": "Teste Globaltech",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_1",
+      "parentId": "wrk_1",
+      "name": "POST Pessoa",
+      "url": "http://localhost:8000/pessoa/",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"Lucas Silvestre\",\n  \"idade\": 30,\n  \"altura\": 1.75,\n  \"peso\": 70,\n  \"sexo\": \"M\"\n}"
+      },
+      "_type": "request"
+    },
+    {
+      "_id": "req_2",
+      "parentId": "wrk_1",
+      "name": "GET Pessoa (by ID)",
+      "url": "http://localhost:8000/pessoa/1/",
+      "method": "GET",
+      "_type": "request"
+    },
+    {
+      "_id": "req_3",
+      "parentId": "wrk_1",
+      "name": "PUT Pessoa",
+      "url": "http://localhost:8000/pessoa/1/",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"Lucas S.\",\n  \"idade\": 31,\n  \"altura\": 1.75,\n  \"peso\": 72,\n  \"sexo\": \"M\"\n}"
+      },
+      "_type": "request"
+    },
+    {
+      "_id": "req_4",
+      "parentId": "wrk_1",
+      "name": "DELETE Pessoa",
+      "url": "http://localhost:8000/pessoa/1/",
+      "method": "DELETE",
+      "_type": "request"
+    },
+    {
+      "_id": "req_5",
+      "parentId": "wrk_1",
+      "name": "GET Peso Ideal",
+      "url": "http://localhost:8000/pessoa/1/pesoideal/",
+      "method": "GET",
+      "_type": "request"
+    }
+  ]
+}
