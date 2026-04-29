@@ -1,4 +1,4 @@
-# GlobalTech - Sistema de Gestão de Pessoas
+Sistema de Gestão de Pessoas
 
 Este é um sistema de gestão de pessoas desenvolvido com **Django** no backend e **React** no frontend. O sistema permite criar, listar, editar, excluir e calcular o peso ideal de pessoas.
 
